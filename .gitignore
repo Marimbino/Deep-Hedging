@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.coverage
+coverage.xml
+
+# Model artifacts & data
+*.pt
+*.pth
+*.npz
+*.csv
+wgan_model/
+
+# Environments & editors
+.env
+venv/
+.venv/
+.vscode/
+
+# Docs build
+docs/_build/
